@@ -1,2 +1,2 @@
-# movie-stream-tracker
-# 🎬 CineScope — Rastreador de filmes que estão em cataz nos cinemas
+# LeagueStats
+# 🎬 LeagueStats — App estatisticos trazendo as principais estasticas do times do mundo.
