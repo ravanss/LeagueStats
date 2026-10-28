@@ -4,8 +4,9 @@ $direcBasetory = get_template_directory();
 
 remove_action('rest_api_init', 'create_initial_rest_routes', 99);
 
-// Include the user_post.php file
+// require the endpoint files
 require_once $direcBasetory . '/endpoints/user_post.php';
+require_once $direcBasetory . '/endpoints/user_get.php';
 
 // Change the REST API prefix to 'json'
 function change_api(){
