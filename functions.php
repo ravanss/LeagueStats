@@ -12,4 +12,8 @@ function change_api(){
     return 'json';
 }
 add_filter('rest_url_prefix', 'change_api');
-?>
+
+/*function expireToker(){
+    return time() + (60 * 60 * 24); // 1 day
+}
+add_action('jwt_auth_expire', 'expireToker');*/
